@@ -1,0 +1,36 @@
+# Core scientific computing
+numpy>=1.21.0
+pandas>=1.3.0
+scipy>=1.7.0
+matplotlib>=3.4.0
+seaborn>=0.11.0
+
+# Machine learning
+torch>=1.12.0
+torchvision>=0.13.0
+scikit-learn>=1.0.0
+
+# Simulation-based inference
+sbi>=0.21.0
+sbibm>=1.0.0
+
+# Utilities
+tqdm>=4.62.0
+itertools2>=9.0.0
+
+# ==============================================================================
+# CUSTOM INSTALLATION INSTRUCTIONS
+# ==============================================================================
+# 
+# After installing the above requirements, run these commands:
+#
+# 1. Install ltu-ili from GitHub:
+#    pip install -e git+https://github.com/maho3/ltu-ili#egg=ltu-ili
+#
+# 2. Install symbolic_pofk:
+#    git clone https://github.com/DeaglanBartlett/symbolic_pofk.git
+#    cd symbolic_pofk
+#    pip install ".[torch]"
+#    cd ..
+#
+# ==============================================================================
